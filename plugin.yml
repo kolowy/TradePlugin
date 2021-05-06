@@ -1,0 +1,15 @@
+name: MyPlugin
+version: 1.0
+author: Kolowy
+main: fr.kolowy.myplugin.MyPlugin
+commands:
+  test:
+    description: Ceci est un test
+    permission: test.use
+  alert:
+    description: Ceci est un broadcast custom
+    permission: bc .use
+  spawn:
+    description: aller au spawn
+  trade:
+    description: trade avec d'autres users
